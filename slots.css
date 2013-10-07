@@ -1,0 +1,95 @@
+.machine {
+	margin: auto;
+	width: 745px;
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+
+.title {
+	text-align: center;
+	font-size: 45pt;
+	width: 660px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.reels {
+	border-radius: 20px;
+	border-style: solid;
+	display: inline-block;
+	height: 230px;
+	position: relative;
+	overflow: hidden;
+	width: 660px;
+}
+
+.reel1, .reel2, .reel3 {
+	display: inline-block;
+	height: 200px;
+	margin: 5px;
+	width: 200px;
+	position: absolute;
+	top: -248px;
+}
+
+.reel2 {
+	left: 215px;
+}
+
+.reel3 {
+	left: 430px;
+}
+
+.handle {
+	background-image: url(images/slotHandle.png);
+	display: inline-block;
+	height: 200px;
+	margin-left: -5px;
+	margin-bottom: 10px;
+	width: 65px;
+}
+
+.handle:hover {
+	cursor: pointer;
+}
+
+.handle:active {
+	background-image: url(images/slotHandleDown.png);
+}
+
+.coffee-maker, .teapot, .espresso-machine,
+.coffee-filter, .tea-strainer, .espresso-tamper,
+.coffee-grounds, .loose-tea, .espresso-beans {
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 6px;
+	height: 200px;
+	margin: 5px;
+	margin-top: 20px;
+	overflow: hidden;
+	width: 200px;
+}
+
+.coffee-maker, .coffee-filter, .coffee-grounds {
+	border-color: brown;
+}
+
+.teapot, .tea-strainer, .loose-tea {
+	border-color: green;
+}
+
+.espresso-machine, .espresso-tamper, .espresso-beans {
+	border-color: black;
+}
+
+.prize {
+	text-align: center;
+	width: 660px;
+}
+
+.coffee, .tea, .espresso, .beer {
+	display: none;
+}
+
+body {
+	overflow: hidden;
+}
